@@ -1,5 +1,3 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class duplicate {
@@ -19,11 +17,8 @@ public class duplicate {
                 }
             }
         }
-
-       System.out.println(lst.values());
-        
+       System.out.println(lst.values());   
     }
-    
     public static void main(String[] args) {
         int ar[]={1,2,3,1,2,2,2,3,4,5,6756,342,1,4,6756,12};
         findDuplicates(ar);     
